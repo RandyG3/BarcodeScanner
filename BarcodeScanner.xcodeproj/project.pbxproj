@@ -75,15 +75,15 @@
 		A452548B2B41143300F5A09A /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				A452549A2B41157600F5A09A /* $lastTimeCode.md */,
 				A43B15F32B41FE8000DFE7E6 /* Screens */,
 				A43B15F22B41FE7700DFE7E6 /* Views */,
 				A43B15F12B41FE6E00DFE7E6 /* Utilities */,
 				A452548C2B41143300F5A09A /* BarcodeScannerApp.swift */,
 				A452548E2B41143300F5A09A /* BarcodeScannerView.swift */,
-				A452549A2B41157600F5A09A /* $lastTimeCode.md */,
+				A43B15F42B41FEFE00DFE7E6 /* ScannerVC.swift */,
 				A45254902B41143400F5A09A /* Assets.xcassets */,
 				A45254922B41143400F5A09A /* Preview Content */,
-				A43B15F42B41FEFE00DFE7E6 /* ScannerVC.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
