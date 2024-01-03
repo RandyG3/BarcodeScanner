@@ -14,7 +14,7 @@ enum CameraError : String {
 }
 
 protocol ScannerVCDelegate: class {
-    func didFind(barcpde: String)
+    func didFind(barcode: String)
     func didSurface(error: CameraError)
 }
 
@@ -108,6 +108,6 @@ extension ScannerVC: AVCaptureMetadataOutputObjectsDelegate {
             return
         }
         
-        scannerDelegate?.didFind(barcpde: barcode)
+        scannerDelegate?.didFind(barcode: barcode)
     }
 }
